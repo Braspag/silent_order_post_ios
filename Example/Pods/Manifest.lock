@@ -1,0 +1,16 @@
+PODS:
+  - BraspagSilentOrderPost (0.0.2)
+
+DEPENDENCIES:
+  - BraspagSilentOrderPost
+
+SPEC REPOS:
+  trunk:
+    - BraspagSilentOrderPost
+
+SPEC CHECKSUMS:
+  BraspagSilentOrderPost: 5074480eb1b3eb6addf946142e7925ce67b8840c
+
+PODFILE CHECKSUM: cb6ed408bcd8b971ddab8acae21600bc17a6af8d
+
+COCOAPODS: 1.9.3
