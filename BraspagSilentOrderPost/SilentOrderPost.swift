@@ -61,6 +61,8 @@ public class SilentOrderPost: NSObject, SilentOrderPostProtocol {
                                               cardExpiration: cardExpirationDate,
                                               cardSecurityCode: cardCvv,
                                               enableBinQuery: enableBinQuery,
+                                              enableVerifyCard: enableVerifyCard,
+                                              enableZeroAuth: enableZeroAuth,
                                               onValidation: onValidation,
                                               onSuccess: onSuccess,
                                               onError: onError)
