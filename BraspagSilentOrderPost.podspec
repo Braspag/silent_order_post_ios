@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "BraspagSilentOrderPost"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Braspag silent order post it's an easy way to validate credit card and get a valid token."
 
   spec.description  = <<-DESC
