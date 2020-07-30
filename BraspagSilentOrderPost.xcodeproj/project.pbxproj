@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B0E01B24CA8785003923BD /* BraspagSilentOrderPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B0E01924CA8785003923BD /* BraspagSilentOrderPost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B0E02D24CA87B8003923BD /* SilentOrderPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B0E02124CA87B8003923BD /* SilentOrderPost.h */; };
+		68B0E02E24CA87B8003923BD /* SuccessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02324CA87B8003923BD /* SuccessResult.swift */; };
+		68B0E02F24CA87B8003923BD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02424CA87B8003923BD /* Enums.swift */; };
+		68B0E03024CA87B8003923BD /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02524CA87B8003923BD /* ErrorResult.swift */; };
+		68B0E03124CA87B8003923BD /* ValidationResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02624CA87B8003923BD /* ValidationResults.swift */; };
+		68B0E03224CA87B8003923BD /* DecodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02824CA87B8003923BD /* DecodableExtensions.swift */; };
+		68B0E03324CA87B8003923BD /* EncodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02924CA87B8003923BD /* EncodableExtensions.swift */; };
+		68B0E03424CA87B8003923BD /* RemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02B24CA87B8003923BD /* RemoteDatasource.swift */; };
+		68B0E03524CA87B8003923BD /* SilentOrderPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B0E02C24CA87B8003923BD /* SilentOrderPost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68B0E01624CA8785003923BD /* BraspagSilentOrderPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BraspagSilentOrderPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B0E01924CA8785003923BD /* BraspagSilentOrderPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BraspagSilentOrderPost.h; sourceTree = "<group>"; };
+		68B0E01A24CA8785003923BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B0E02124CA87B8003923BD /* SilentOrderPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SilentOrderPost.h; sourceTree = "<group>"; };
+		68B0E02324CA87B8003923BD /* SuccessResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessResult.swift; sourceTree = "<group>"; };
+		68B0E02424CA87B8003923BD /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		68B0E02524CA87B8003923BD /* ErrorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		68B0E02624CA87B8003923BD /* ValidationResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResults.swift; sourceTree = "<group>"; };
+		68B0E02824CA87B8003923BD /* DecodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableExtensions.swift; sourceTree = "<group>"; };
+		68B0E02924CA87B8003923BD /* EncodableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodableExtensions.swift; sourceTree = "<group>"; };
+		68B0E02B24CA87B8003923BD /* RemoteDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDatasource.swift; sourceTree = "<group>"; };
+		68B0E02C24CA87B8003923BD /* SilentOrderPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilentOrderPost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B0E01324CA8785003923BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B0E00C24CA8785003923BD = {
+			isa = PBXGroup;
+			children = (
+				68B0E01824CA8785003923BD /* BraspagSilentOrderPost */,
+				68B0E01724CA8785003923BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B0E01724CA8785003923BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E01624CA8785003923BD /* BraspagSilentOrderPost.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B0E01824CA8785003923BD /* BraspagSilentOrderPost */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E02224CA87B8003923BD /* Domain */,
+				68B0E02724CA87B8003923BD /* Extensions */,
+				68B0E02A24CA87B8003923BD /* Networking */,
+				68B0E02124CA87B8003923BD /* SilentOrderPost.h */,
+				68B0E02C24CA87B8003923BD /* SilentOrderPost.swift */,
+				68B0E01924CA8785003923BD /* BraspagSilentOrderPost.h */,
+				68B0E01A24CA8785003923BD /* Info.plist */,
+			);
+			path = BraspagSilentOrderPost;
+			sourceTree = "<group>";
+		};
+		68B0E02224CA87B8003923BD /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E02324CA87B8003923BD /* SuccessResult.swift */,
+				68B0E02424CA87B8003923BD /* Enums.swift */,
+				68B0E02524CA87B8003923BD /* ErrorResult.swift */,
+				68B0E02624CA87B8003923BD /* ValidationResults.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		68B0E02724CA87B8003923BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E02824CA87B8003923BD /* DecodableExtensions.swift */,
+				68B0E02924CA87B8003923BD /* EncodableExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		68B0E02A24CA87B8003923BD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				68B0E02B24CA87B8003923BD /* RemoteDatasource.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68B0E01124CA8785003923BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B0E02D24CA87B8003923BD /* SilentOrderPost.h in Headers */,
+				68B0E01B24CA8785003923BD /* BraspagSilentOrderPost.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68B0E01524CA8785003923BD /* BraspagSilentOrderPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B0E01E24CA8785003923BD /* Build configuration list for PBXNativeTarget "BraspagSilentOrderPost" */;
+			buildPhases = (
+				68B0E01124CA8785003923BD /* Headers */,
+				68B0E01224CA8785003923BD /* Sources */,
+				68B0E01324CA8785003923BD /* Frameworks */,
+				68B0E01424CA8785003923BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraspagSilentOrderPost;
+			productName = BraspagSilentOrderPost;
+			productReference = 68B0E01624CA8785003923BD /* BraspagSilentOrderPost.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B0E00D24CA8785003923BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = jnazario.com;
+				TargetAttributes = {
+					68B0E01524CA8785003923BD = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 68B0E01024CA8785003923BD /* Build configuration list for PBXProject "BraspagSilentOrderPost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B0E00C24CA8785003923BD;
+			productRefGroup = 68B0E01724CA8785003923BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B0E01524CA8785003923BD /* BraspagSilentOrderPost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B0E01424CA8785003923BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B0E01224CA8785003923BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B0E03024CA87B8003923BD /* ErrorResult.swift in Sources */,
+				68B0E03524CA87B8003923BD /* SilentOrderPost.swift in Sources */,
+				68B0E03324CA87B8003923BD /* EncodableExtensions.swift in Sources */,
+				68B0E02F24CA87B8003923BD /* Enums.swift in Sources */,
+				68B0E02E24CA87B8003923BD /* SuccessResult.swift in Sources */,
+				68B0E03224CA87B8003923BD /* DecodableExtensions.swift in Sources */,
+				68B0E03124CA87B8003923BD /* ValidationResults.swift in Sources */,
+				68B0E03424CA87B8003923BD /* RemoteDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68B0E01C24CA8785003923BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68B0E01D24CA8785003923BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68B0E01F24CA8785003923BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JL34Y44PJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BraspagSilentOrderPost/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnazario.BraspagSilentOrderPost;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B0E02024CA8785003923BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JL34Y44PJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BraspagSilentOrderPost/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnazario.BraspagSilentOrderPost;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B0E01024CA8785003923BD /* Build configuration list for PBXProject "BraspagSilentOrderPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B0E01C24CA8785003923BD /* Debug */,
+				68B0E01D24CA8785003923BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B0E01E24CA8785003923BD /* Build configuration list for PBXNativeTarget "BraspagSilentOrderPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B0E01F24CA8785003923BD /* Debug */,
+				68B0E02024CA8785003923BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B0E00D24CA8785003923BD /* Project object */;
+}
