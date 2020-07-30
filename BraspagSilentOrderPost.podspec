@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source       = { :git => "https://github.com/braspag/silent_order_post_ios.git", :tag => "#{spec.version}" }
   spec.ios.deployment_target = '9.0'
-
+  spec.swift_version = "5.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.source_files  = "BraspagSilentOrderPost/**/*.{h,m,swift,framework}"
